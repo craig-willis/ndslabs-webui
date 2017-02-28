@@ -102,9 +102,9 @@ angular.module('ndslabs', [ 'navbar', 'footer', 'ndslabs-services', 'ndslabs-fil
  * The name of the product to display in the UI and the URL to link to when clicked
  */
  
-.constant('OrgName', 'NDS')
-.constant('ProductName', 'Labs Workbench')
-.constant('ProductUrl', 'http://www.nationaldataservice.org/projects/labs.html')
+.constant('OrgName', 'NOYFB')
+.constant('ProductName', 'DatBench')
+.constant('ProductUrl', 'http://www.noyfb.org/projects/datbench.html')
 
 .value('HelpLinks', [
   { name: "Feature Overview",       icon: 'fa-info-circle',        url: 'https://nationaldataservice.atlassian.net/wiki/display/NDSC/Feature+Overview' },
